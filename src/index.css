@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'DM Sans', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #38343B;
+    background-color: #FAF8F5;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'DM Serif Display', Georgia, serif;
+  }
+}
+
+/* 3D Card Flip Essentials */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Polaroid Card Frame Styling */
+.polaroid-card {
+  box-shadow: 0 4px 14px -2px rgba(56, 52, 59, 0.08), 0 2px 6px -1px rgba(56, 52, 59, 0.04);
+}
+
+.polaroid-card:hover {
+  box-shadow: 0 10px 25px -4px rgba(56, 52, 59, 0.12), 0 4px 10px -2px rgba(56, 52, 59, 0.06);
+}
+
+/* Custom Soft Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8DDF3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #987CB0;
+}

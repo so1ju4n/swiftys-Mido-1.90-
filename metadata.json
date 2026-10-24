@@ -1,0 +1,6 @@
+{
+  "name": "Pastel Memory - Mini Juego de Memoria",
+  "description": "Mini juego de memoria minimalista en tonos pastel con cartas de libros feministas, matcha y discos de Taylor Swift, con medición de tiempo, intentos y puntuación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
